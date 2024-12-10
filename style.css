@@ -1,0 +1,162 @@
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    background: #0078D7;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+header p {
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+/* Navegación */
+nav {
+    background: #005BB5;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+nav a:hover {
+    color: #FFD700;
+}
+
+/* Carrusel */
+.carousel {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Alinea verticalmente (opcional si es necesario) */
+    gap: 10px; /* Espacio entre las imágenes */
+    padding: 10px;
+    background: #f4f4f4;
+}
+.carousel img {
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    flex-shrink: 0; /* Evita que las imágenes se reduzcan */
+}
+
+.carousel {
+    display: flex;
+    overflow: auto;
+    gap: 10px;
+    padding: 10px;
+    background: #f4f4f4;
+}
+.carousel img {
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+/* Secciones */
+.section {
+    padding: 20px;
+    text-align: center;
+}
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #0078D7;
+}
+.section p {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Habitaciones */
+.rooms {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.card h3 {
+    font-size: 1.5rem;
+    color: #005BB5;
+}
+.card p {
+    margin: 10px 0;
+}
+.card img {
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Formulario de Contacto */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 20px auto;
+}
+input, textarea, button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #0078D7;
+}
+button {
+    background: #0078D7;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+button:hover {
+    background: #005BB5;
+}
+
+/* Pie de Página */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+footer p {
+    margin: 0;
+}
